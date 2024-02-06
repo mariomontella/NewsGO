@@ -12,7 +12,7 @@ class _MenuState extends State<Menu> {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: Colors.grey[700],
+        color: Colors.grey[900],
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
@@ -34,19 +34,31 @@ class _MenuState extends State<Menu> {
               ),
             ),
             ListTile(
-              title: Text('News'),
+              title: Text('News',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold)),
               onTap: () {
                 // Implement navigation to News page
               },
             ),
             ListTile(
-              title: Text('Privacy Policy'),
+              title: Text('Privacy Policy',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold)),
               onTap: () {
                 // Implement navigation to Privacy Policy page
               },
             ),
             ListTile(
-              title: Text('test'),
+              title: Text('test',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold)),
               onTap: () {
                 // Implement navigation to Privacy Policy page
               },
