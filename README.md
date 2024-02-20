@@ -1,6 +1,6 @@
-# flutter_application_1
+# NewsGO
 
-A new Flutter project.
+Is a simple news app.
 
 ## Getting Started
 
