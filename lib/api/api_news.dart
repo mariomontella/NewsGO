@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ApiNews {
-  final String apiKey = 'd97a2b1e89c1446b872bb928b5369725';
+  final String apiKey = 'Your_api_key';
 
   Future<List<dynamic>> fetchLatestNews() async {
     final response = await http.get(
